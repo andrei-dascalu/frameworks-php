@@ -1,8 +1,9 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Services;
 
-use App\Services\MyOtherService as ServicesMyOtherService;
 use DI\Annotation\Inject;
 
 class MyOtherService
